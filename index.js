@@ -24,7 +24,7 @@ client.on("messageCreate",message=>{
 client.on("interactionCreate",interaction=>{
     interaction.reply("Pong !!!")
 })  
-client.login(process.env.API_KEY)
+client.login("MTMwOTE4ODExNTYyOTM0MjczMA.GYHNR0.XnAylExFRQXSZiguLd7XVrKXIq-LDn39T2BXws")
 
 // Message {
 //   channelId: '1309182872032116788',
