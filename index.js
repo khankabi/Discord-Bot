@@ -1,4 +1,7 @@
 const { Client, GatewayIntentBits } = require("discord.js")
+require('dotenv').config()
+// const axios = require('axios');
+
 const client = new Client({ intents: [GatewayIntentBits.Guilds,GatewayIntentBits.GuildMessages,GatewayIntentBits.MessageContent ] });
 client.on("messageCreate",message=>{
     if (message.author.bot) return ;
@@ -21,7 +24,7 @@ client.on("messageCreate",message=>{
 client.on("interactionCreate",interaction=>{
     interaction.reply("Pong !!!")
 })  
-client.login("MTMwOTE4ODExNTYyOTM0MjczMA.GYHNR0.XnAylExFRQXSZiguLd7XVrKXIq-LDn39T2BXws")
+client.login(process.env.API_KEY)
 
 // Message {
 //   channelId: '1309182872032116788',
