@@ -6,7 +6,7 @@ const commands = [
         description: 'Replies with Pong!',
     },
 ];
-const rest = new REST({ version: '10' }).setToken("MTMwOTE4ODExNTYyOTM0MjczMA.GYHNR0.XnAylExFRQXSZiguLd7XVrKXIq-LDn39T2BXws");
+const rest = new REST({ version: '10' }).setToken("MTMwOTE4ODExNTYyOTM0MjczMA.GHsG67.ojEWbI_LzdXEEd70wdZ4LLr9V5sj3OtNq_gd3U");
 
 (async () => {
 
