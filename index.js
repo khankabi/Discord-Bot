@@ -122,7 +122,7 @@ app.get("/url/:shortId", async (req, res) => {
         return res.redirect(entry.redirectUrl)
     }
 })
-client.login("MTMwOTE4ODExNTYyOTM0MjczMA.GHsG67.ojEWbI_LzdXEEd70wdZ4LLr9V5sj3OtNq_gd3U")
+client.login("<API_TOKEN>")
 app.listen(port, () => {
     console.log(`server is running on port ${port}`)
 })
